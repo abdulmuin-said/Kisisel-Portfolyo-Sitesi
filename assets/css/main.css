@@ -223,9 +223,10 @@ ul {
   justify-content: center;
   position: relative;
   overflow: hidden;
+  padding-top: 80px;
   background: radial-gradient(ellipse at 20% 50%, rgba(0, 212, 255, 0.08) 0%, transparent 60%),
-              radial-gradient(ellipse at 80% 20%, rgba(124, 58, 237, 0.08) 0%, transparent 60%),
-              var(--bg-primary);
+    radial-gradient(ellipse at 80% 20%, rgba(124, 58, 237, 0.08) 0%, transparent 60%),
+    var(--bg-primary);
 }
 
 .hero-particles {
@@ -247,12 +248,15 @@ ul {
     opacity: 0;
     transform: translateY(0) scale(0);
   }
+
   10% {
     opacity: 0.6;
   }
+
   90% {
     opacity: 0.2;
   }
+
   100% {
     opacity: 0;
     transform: translateY(-100vh) scale(1);
@@ -282,8 +286,15 @@ ul {
 }
 
 @keyframes badgePulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.3); }
-  50% { box-shadow: 0 0 20px 4px rgba(0, 212, 255, 0.15); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 20px 4px rgba(0, 212, 255, 0.15);
+  }
 }
 
 .hero h1 {
@@ -309,7 +320,9 @@ ul {
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 .hero-cta {
@@ -421,8 +434,15 @@ ul {
 }
 
 @keyframes scrollWheel {
-  0% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(12px); }
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
 }
 
 /* ==================== ABOUT SECTION ==================== */
@@ -882,7 +902,7 @@ ul {
   align-items: flex-start;
 }
 
-.contact-item + .contact-item {
+.contact-item+.contact-item {
   margin-top: 28px;
   padding-top: 28px;
   border-top: 1px solid var(--border);
@@ -920,7 +940,7 @@ ul {
   margin-bottom: 8px;
 }
 
-.social-section > p {
+.social-section>p {
   color: var(--text-muted);
   font-size: 0.92rem;
   margin-bottom: 24px;
@@ -963,7 +983,9 @@ ul {
   color: #c9b1ff;
 }
 
-.social-card.github:hover i { color: #c9b1ff; }
+.social-card.github:hover i {
+  color: #c9b1ff;
+}
 
 .social-card.linkedin:hover {
   border-color: #0077b5;
@@ -971,7 +993,9 @@ ul {
   color: #4db8e8;
 }
 
-.social-card.linkedin:hover i { color: #4db8e8; }
+.social-card.linkedin:hover i {
+  color: #4db8e8;
+}
 
 .social-card.twitter:hover {
   border-color: #1da1f2;
@@ -979,7 +1003,9 @@ ul {
   color: #7cc4f5;
 }
 
-.social-card.twitter:hover i { color: #7cc4f5; }
+.social-card.twitter:hover i {
+  color: #7cc4f5;
+}
 
 .social-card.instagram:hover {
   border-color: #e4405f;
@@ -987,7 +1013,9 @@ ul {
   color: #f08da0;
 }
 
-.social-card.instagram:hover i { color: #f08da0; }
+.social-card.instagram:hover i {
+  color: #f08da0;
+}
 
 .social-card.facebook:hover {
   border-color: #1877f2;
@@ -995,7 +1023,9 @@ ul {
   color: #7cb4f7;
 }
 
-.social-card.facebook:hover i { color: #7cb4f7; }
+.social-card.facebook:hover i {
+  color: #7cb4f7;
+}
 
 /* ==================== FOOTER ==================== */
 .footer {
@@ -1021,7 +1051,7 @@ ul {
   color: var(--accent);
 }
 
-.footer-content > p {
+.footer-content>p {
   color: var(--text-muted);
   font-size: 0.92rem;
   margin-bottom: 20px;
