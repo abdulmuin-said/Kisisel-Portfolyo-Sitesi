@@ -4,1154 +4,562 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Abdulmuin Said</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Abdulmuin Said — Bilgisayar Mühendisi</title>
+  <meta name="description"
+    content="Abdulmuin Said — Bilgisayar Mühendisliği öğrencisi, Full-Stack geliştirici, e-ticaret ve uygulama geliştirme uzmanı.">
+  <meta name="keywords" content="Abdulmuin Said, yazılım, web geliştirme, e-ticaret, bilgisayar mühendisi, portfolio">
+  <meta name="author" content="Abdulmuin Said">
 
-  <!-- Favicons -->
-  <link href="/iPortfolio-1.0.0/assets/img/favicon-1.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicon — Kendi favicon dosyanızı assets/img/favicon.png olarak yükleyin -->
+  <link href="assets/img/favicon.png" rel="icon" type="image/png">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- AOS Animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Abdulmuin SAİD</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="https://twitter.com/abdulmuin_alsaeed" target="_blank" class="twitter">
-        <i class="bi bi-twitter-x"></i>
-      </a>
-      <a href="https://facebook.com/abdulmuin_alsaeed" target="_blank" class="facebook">
-        <i class="bi bi-facebook"></i>
-      </a>
-      <a href="https://instagram.com/abdulmuin_alsaeed" target="_blank" class="instagram">
-        <i class="bi bi-instagram"></i>
-      </a>
-      
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>ANASAYFA</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> HAKKIMDA</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> İLETİŞİM </a></li>
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">A<span>S</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="active">Anasayfa</a></li>
+        <li><a href="#about">Hakkımda</a></li>
+        <li><a href="#skills">Yetenekler</a></li>
+        <li><a href="#services">Hizmetler</a></li>
+        <li><a href="#education">Eğitim</a></li>
+        <li><a href="#certificates">Sertifikalar</a></li>
+        <li><a href="#contact">İletişim</a></li>
       </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-<section id="hero" class="hero section dark-background">
-
-  <!-- Video Arka Plan -->
-  <video autoplay muted loop id="bg-video">
-    <source src="digital_earth1_2.mp4" type="video/mp4">
-  </video>
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="hero-content text-center">
-      <h2 style="font-size: 3rem; margin-bottom: 0.5rem;">Abdulmuin SAİD</h2>
-      <p style="font-size: 1.1rem;">I'm <span class="typed" data-typed-items="Computer Engineer"></span></p>
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç/kapat">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
-  </div>
+  </nav>
 
-</section><!-- /Hero Section -->
-
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2>Hakkımda</h2>
-  <p class="about-text" style="font-style: italic;" >"Ben Abdulmuin Said. <br>
-    Bilgisayar mühendisliği öğrencisiyim ve aynı zamanda e-ticaretle ilgileniyorum. Dijital dünyaya olan ilgim sayesinde web tasarımı, çevrim içi satış ve girişimcilik alanlarında kendimi geliştiriyorum.
-    Hedefim, kaliteli hizmet ve güvenilir alışveriş deneyimi sunarak insanlara değer katmak. Her zaman öğrenmeye ve yeni fırsatlara açığım."
-  </p>
-</div><!-- End Section Title -->
-
-<style>
-.section-title {
-  text-align: center;
-  padding: 40px 0;
-}
-
-.section-title h2 {
-  margin-bottom: 30px;
-  position: relative;
-  display: inline-block;
-}
-
-.about-text {
-  max-width: 800px;
-  margin: 0 auto 40px auto;
-  padding: 0 20px;
-  position: relative;
-}
-
-.about-text::after {
-  content: '';
-  display: block;
-  width: 100px;
-  height: 3px;
-  background: #007bff;
-  margin: 30px auto 0 auto;
-}
-
-@media (max-width: 768px) {
-  .about-text {
-    padding: 0 15px;
-  }
-  
-  .about-text::after {
-    margin-top: 25px;
-    width: 80px;
-  }
-}
-</style>
-
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section 
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-            </div>
-          </div> <-- End Stats Item --1>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-            </div>
-          </div><11!-- End Stats Item -1->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-            </div>
-          </div><1!-- End Stats Item -1->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-            </div>
-          </div><!-- End Stats Item -1->
-
-        </div>
-
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="hero">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+      <div class="hero-badge">Yazılım Geliştirici</div>
+      <h1>Merhaba, Ben <span class="gradient-text">Abdulmuin Said</span></h1>
+      <p class="hero-subtitle" id="typed-output"></p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">
+          <i class="bi bi-envelope"></i> İletişime Geç
+        </a>
+        <a href="#services" class="btn-outline">
+          <i class="bi bi-arrow-down-circle"></i> Hizmetlerimi Gör
+        </a>
       </div>
-
-    </section> /Stats Section --><!--bu alanı henüz öğrenci olduğum için yorum satırı haline getirdim bu alan müşterilerin kaç kişi mutk-lu ve proje sayısı falan.--> 
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>YETENEKLER</h2>
-        <p>Bildiğim programlama dilleri ve bu dillere olan hakimiyet seviyem</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>C</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-            <div class="progress">
-              <span class="skill"><span>C++</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-            <div class="progress">
-              <span class="skill"><span>C#</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JAVA</span> <i class="val">10%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>PYTHON</span> <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>css</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-            <div class="progress">
-              <span class="skill"><span>JAVASCRİPT</span> <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">30%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>SQL - MYSQL</span> <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Proje</span>
         </div>
-
-      </div>
-
-<!-- Sertifikalar Bölümü -->
-<section id="certificates" class="certificates-section">
-  <div class="container">
-    <div class="section-heading">
-      <h2>Sertifikalarım</h2>
-      <p>Edindiğim Yetkinlikler ve Başarılar</p>
-    </div>
-
-    <div class="certificates-container">
-      <!-- E-Ticarete Giriş -->
-      <div class="certificate-item">
-        <div class="certificate-icon">📈</div>
-        <div class="certificate-content">
-          <h3>E-Ticarete Giriş</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>E-ticaret altyapıları, ürün listeleme, ödeme sistemleri, lojistik</p>
-          </div>
+        <div class="stat-item">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Teknoloji</span>
         </div>
-      </div>
-
-      <!-- Siber Güvenliğe Giriş -->
-      <div class="certificate-item">
-        <div class="certificate-icon">🔒</div>
-        <div class="certificate-content">
-          <h3>Siber Güvenliğe Giriş</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>Temel siber güvenlik kavramları, tehdit türleri, güvenlik katmanları</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Temel Siber Güvenlik Eğitimi -->
-      <div class="certificate-item">
-        <div class="certificate-icon">🛡️</div>
-        <div class="certificate-content">
-          <h3>Temel Siber Güvenlik Eğitimi</h3>
-          <div class="certificate-meta">
-            <span class="cert-date">2025</span>
-            <span class="cert-type">Online Eğitim</span>
-          </div>
-          <div class="certificate-details">
-            <p>Ağ güvenliği, sızma testlerine giriş, temel Kali Linux komutları</p>
-          </div>
-        </div>
-      </div>
-
-      
-
-     
-
-      <!-- Excel -->
-      <div class="certificate-item">
-        <div class="certificate-icon">📊</div>
-        <div class="certificate-content">
-          <h3>Excel Uzmanlığı</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>Excel fonksiyonları, tablo düzenleme, XML ile web scraping</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Satış ve Pazarlama Yönetimi -->
-      <div class="certificate-item">
-        <div class="certificate-icon">📢</div>
-        <div class="certificate-content">
-          <h3>Satış ve Pazarlama Yönetimi</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>Satış teknikleri, CRM, dijital pazarlama stratejileri</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Girişimcilik Temelleri -->
-      <div class="certificate-item">
-        <div class="certificate-icon">🚀</div>
-        <div class="certificate-content">
-          <h3>Girişimcilik Temelleri</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>İş modeli oluşturma, finansal planlama, girişimci zihniyeti</p>
-          </div>
-        </div>
-      </div>
-
-      
-
-      <!-- C Programlama -->
-      <div class="certificate-item">
-        <div class="certificate-icon">📟</div>
-        <div class="certificate-content">
-          <h3>C Programlama Dili</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>Temel C sözdizimi, kontrol yapıları, diziler, fonksiyonlar</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- C# Programlama -->
-      <div class="certificate-item">
-        <div class="certificate-icon">🎮</div>
-        <div class="certificate-content">
-          <h3>C# Programlama</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>OOP, form uygulamaları, sınıflar, veri işleme teknikleri</p>
-          </div>
-        </div>
-      </div>
-
-      
-
-      <!-- Python -->
-      <div class="certificate-item">
-        <div class="certificate-icon">🐍</div>
-        <div class="certificate-content">
-          <h3>İleri Seviye Python</h3>
-          <div class="certificate-meta">
-            <span class="cert-type">Başarı Sertifikası</span>
-          </div>
-          <div class="certificate-details">
-            <p>Veri yapıları, OOP, proje geliştirme, web scraping</p>
-          </div>
-        </div>
-      </div>
-
-      
-
-
-    </div>
-  </div>
-</section>
-
-
-
-
-<div class="container">
-  <div class="row justify-content-center"> <!-- Ortalama için -->
-    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100"> <!-- Genişlik artırıldı -->
-      <h3 class="resume-title text-center mb-4">🎓 Eğitim</h3> <!-- Ortalı başlık -->
-
-      <div class="edu-card"> <!-- Yeni kart stili -->
-        <div class="uni-icon">
-          <i class="fas fa-university"></i> <!-- Font Awesome ikonu -->
-        </div>
-        <div class="edu-content">
-          <h4>Bilgisayar Mühendisliği Lisans Eğitimi</h4>
-          <div class="uni-meta">
-            <span class="badge bg-primary">2024 - Devam Ediyor</span>
-            <span class="location"><i class="fas fa-map-marker-alt"></i> Kastamonu, Türkiye</span>
-          </div>
-          <p class="uni-name"><em>Kastamonu Üniversitesi, Mühendislik ve Mimarlık Fakültesi</em></p>
+        <div class="stat-item">
+          <span class="stat-number">2+</span>
+          <span class="stat-label">Yıl Deneyim</span>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<style>
-.edu-card {
-  background: #fff;
-  border-radius: 15px;
-  padding: 25px;
-  position: relative;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  margin-left: 60px; /* İkon için alan */
-  transition: transform 0.3s ease;
-}
-
-.edu-card:hover {
-  transform: translateY(-5px);
-}
-
-.uni-icon {
-  position: absolute;
-  left: -60px;
-  top: 20px;
-  width: 50px;
-  height: 50px;
-  background: #4a90e2;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 1.5rem;
-  box-shadow: 0 5px 15px rgba(74,144,226,0.3);
-}
-
-.uni-meta {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  margin: 15px 0;
-}
-
-.uni-name {
-  color: #6c757d;
-  border-left: 3px solid #4a90e2;
-  padding-left: 15px;
-}
-
-@media (max-width: 768px) {
-  .edu-card {
-    margin-left: 0;
-    padding: 20px;
-  }
-  
-  .uni-icon {
-    position: static;
-    margin-bottom: 15px;
-  }
-  
-  .uni-meta {
-    flex-direction: column;
-    align-items: start;
-  }
-}
-</style>
-
-            <!--<h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div> Edn Resume Item -->
-
-            <!--<div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div> Edn Resume Item -->
-
-          </div>
-
-          <!--<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div> Edn Resume Item -->
-
-            <!-- <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div> Edn Resume Item -->
-
-          </div>
-
-        </div>
-
+    <a href="#about" class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
       </div>
+    </a>
+  </section>
 
-    </section><!-- /Resume Section -->
-
-<!--    <!-- Portfolio Section --> 
-<!--    <section id="portfolio" class="portfolio section light-background"> -->
-<!-- -->
-<!--      <!-- Section Title --> 
-<!--      <div class="container section-title" data-aos="fade-up"> -->
-<!--        <h2>Portfolio</h2> -->
-<!--        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-<!--      </div><!-- End Section Title --> 
-<!-- -->
-<!--      <div class="container"> -->
-<!-- -->
-<!--        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order"> -->
-<!-- -->
-<!--          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100"> -->
-<!--            <li data-filter="*" class="filter-active">All</li> -->
-<!--            <li data-filter=".filter-app">App</li> -->
-<!--            <li data-filter=".filter-product">Product</li> -->
-<!--            <li data-filter=".filter-branding">Branding</li> -->
-<!--            <li data-filter=".filter-books">Books</li> -->
-<!--          </ul><!-- End Portfolio Filters --> 
-<!-- -->
-<!--          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200"> -->
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>App 1</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Product 1</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Branding 1</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Books 1</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>App 2</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Product 2</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Branding 2</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Books 2</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>App 3</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Product 3</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Branding 3</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"> -->
-<!--              <div class="portfolio-content h-100"> -->
-<!--                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt=""> -->
-<!--                <div class="portfolio-info"> -->
-<!--                  <h4>Books 3</h4> -->
-<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p> -->
-<!--                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-<!--                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-<!--                </div> -->
-<!--              </div> -->
-<!--            </div><!-- End Portfolio Item --> 
-<!-- -->
-<!--          </div><!-- End Portfolio Container --> 
-<!-- -->
-<!--        </div> -->
-<!-- -->
-<!--      </div> -->
-<!-- -->
-<!--    </section><!-- /Portfolio Section --> 
-
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2>🚀 Otomasyon Tabanlı E-Ticaret Projesi</h2>
-  <p class="project-description">"Şu anda kendim geliştirmekte olduğum e-ticaret uygulamamızın yapım aşamasındayım. Yapay zekâ ve otomasyon teknolojileriyle, ürün listeleme, fiyat takibi, sipariş yönetimi ve müşteri etkileşimi gibi süreçleri kolayca yönetebileceğim bir sistem oluşturuyorum. Bu uygulama sayesinde minimum çaba ile maksimum verim almayı hedefliyorum. Projem hala yapım aşamasında ve her türlü fikir ve geri bildirime açığım."</p>
-</div><!-- End Section Title -->
-
-<style>
-.project-description {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 40px;
-  font-style: italic;
-  text-align: justify;
-}
-
-@media (max-width: 768px) {
-  .project-description {
-    padding: 0 25px;
-    font-size: 0.95rem;
-    text-align: left;
-  }
-}
-
-@media (max-width: 480px) {
-  .project-description {
-    padding: 0 15px;
-    line-height: 1.5;
-  }
-}
-</style>
-
-<!--      <div class="container"> -->
-<!-- -->
-<!--        <div class="row gy-4"> -->
-<!-- -->
-<!--          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100"> -->
-<!--            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div> -->
-<!--            <div> -->
-<!--              <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4> -->
-<!--              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
-<!--            </div> -->
-<!--          </div> -->
-<!--          <!-- End Service Item --> 
-<!-- -->
-<!--          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200"> -->
-<!--            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div> -->
-<!--            <div> -->
-<!--              <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4> -->
-<!--              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
-<!--            </div> -->
-<!--          </div><!-- End Service Item --> 
-<!-- -->
-<!--          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300"> -->
-<!--            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div> -->
-<!--            <div> -->
-<!--              <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4> -->
-<!--              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
-<!--            </div> -->
-<!--          </div><!-- End Service Item --> 
-<!-- -->
-<!--          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400"> -->
-<!--            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div> -->
-<!--            <div> -->
-<!--              <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4> -->
-<!--              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
-<!--            </div> -->
-<!--          </div><!-- End Service Item --> 
-<!-- -->
-<!--          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500"> -->
-<!--            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div> -->
-<!--            <div> -->
-<!--              <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4> -->
-<!--              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
-<!--            </div> -->
-<!--          </div><!-- End Service Item --> 
-<!-- -->
-<!--          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600"> -->
-<!--            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div> -->
-<!--            <div> -->
-<!--              <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4> -->
-<!--              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p> -->
-<!--            </div> -->
-<!--          </div><!-- End Service Item --> 
-<!-- -->
-<!--        </div> -->
-<!-- -->
-<!--      </div> -->
-<!-- -->
-<!--    </section><!-- /Services Section --> 
-
-          <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section light-background">
-
-          <!-- Section Title -->
-          <div class="container section-title" data-aos="fade-up">
-            <h2>Sosyal Medya Hesaplarım</h2>
-            <p>Benimle aşağıdaki sosyal medya platformları üzerinden iletişime geçebilirsiniz</p>
-          </div><!-- End Section Title -->
-
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="row gy-4 justify-content-center">
-              <div class="col-lg-3 col-md-6">
-                <a href="https://x.com/abdulmuin_said" target="_blank" class="social-card-link">
-                  <div class="social-card text-center twitter-card">
-                    <i class="bi bi-twitter-x fs-1"></i>
-                    <h3>Twitter</h3>
-                    <p>@abdulmuin_said</p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-3 col-md-6">
-                <a href="https://www.facebook.com/profile.php?id=61575676393199" target="_blank" class="social-card-link">
-                  <div class="social-card text-center facebook-card">
-                    <i class="bi bi-facebook fs-1"></i>
-                    <h3>Facebook</h3>
-                    <p>abdulmuin_said</p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-3 col-md-6">
-                <a href="https://instagram.com/abdulmuin_alsaeed" target="_blank" class="social-card-link">
-                  <div class="social-card text-center instagram-card">
-                    <i class="bi bi-instagram fs-1"></i>
-                    <h3>Instagram</h3>
-                    <p>@abdulmuin_alsaeed</p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-3 col-md-6">
-                <a href="https://www.linkedin.com/in/abdulmuin-said-143025364/" target="_blank" class="social-card-link">
-                  <div class="social-card text-center linkedin-card">
-                    <i class="bi bi-linkedin fs-1"></i>
-                    <h3>LinkedIn</h3>
-                    <p>abdulmuin_said</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-          </div>
-  
-        <!-- Orijinal Testimonials içeriği (yorum satırına alındı) -->
-        <!--
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-  
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 1
-                  }
-                }
-              }
-            </script>
-            <div class="swiper-wrapper">
-  
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                </div>
-              </div>
-  
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-  
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                </div>
-              </div>
-  
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                </div>
-              </div>
-  
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                </div>
-              </div>
-  
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-  
-        </div>
-        -->
-  
-            </section><!-- /Testimonials Section -->
-
-          <!-- Contact Section -->
-          <section id="contact" class="contact section">
-
-            <!-- Contact Section -->
-      <section id="contact" class="contact section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>İletişim</h2>
-        </div><!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="row gy-4">
-
-            <!-- Left Side - Contact Info -->
-            <div class="col-lg-5">
-
-              <div class="info-wrap">
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h3>Adres</h3>
-                    <p>KASTAMONU / MERKEZ</p>
-                  </div>
-                </div><!-- End Info Item -->  
-
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h3>E-posta</h3>
-                    <p>abdulmuin.iletisim@gmail.com</p>
-                  </div>
-                </div><!-- End Info Item -->
-
-                <!-- Sosyal Medya -->
-                <div class="social-links mt-3" data-aos="fade-up" data-aos-delay="600">
-                  <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                  <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                  <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                  <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                </div>
-
-
-
-            <!-- Right Side - Contact Form 
-            <div class="col-lg-7">
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Adınız</label>
-                    <input type="text" name="name" id="name-field" class="form-control" placeholder="Ad Soyad" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <label for="email-field" class="pb-2">E-posta</label>
-                    <input type="email" class="form-control" name="email" id="email-field" placeholder="ornek@email.com" required>
-                  </div>
-
-                  <div class="col-md-12">
-                    <label for="subject-field" class="pb-2">Konu</label>
-                    <input type="text" class="form-control" name="subject" id="subject-field" placeholder="Mesaj konusu" required>
-                  </div>
-
-                  <div class="col-md-12">
-                    <label for="message-field" class="pb-2">Mesajınız</label>
-                    <textarea class="form-control" name="message" rows="10" id="message-field" placeholder="Mesajınızı buraya yazın..." required></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Yükleniyor</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Mesajınız iletildi. Teşekkür ederiz!</div>
-
-                    <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
-                  </div>
-
-                </div>
-              </form>
-            </div> End Contact Form  -->
-
-          </div>
-
-        </div>
-
-      </section><!-- /Contact Section -->
-
-  </main>
-
-
-
-
-
-  <footer id="footer" class="footer position-relative light-background">
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="about section-padding">
     <div class="container">
-      <div class="copyright text-center">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Abdulmuin SAİD</strong> <span>All Rights Reserved</span></p>
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Hakkımda</span>
+        <h2>Kim <span class="gradient-text">Ben?</span></h2>
       </div>
-      <div class="credits text-center">
-        <!-- Kendi bilgilerinizi ekleyin -->
-        <p class="mb-2">Designed with ❤️ by <a href="https://github.com/abdulmuin-said" target="_blank">Abdulmuin</a></p>
-        <div class="social-links mt-2">
-          <a href="https://x.com/abdulmuin_said" class="twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
-          <a href="https://instagram.com/abdulmuin_alsaeed" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/abdulmuin-said-143025364/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <div class="about-grid">
+        <div class="about-image" data-aos="fade-right" data-aos-delay="100">
+          <!-- Kendi profil fotoğrafınızı assets/img/profile.jpg olarak yükleyin -->
+          <div class="image-wrapper">
+            <img src="assets/img/profile.png" alt="Abdulmuin Said">
+            <div class="image-decoration"></div>
+          </div>
         </div>
+        <div class="about-content" data-aos="fade-left" data-aos-delay="200">
+          <h3>Full-Stack Yazılım Geliştirici</h3>
+          <p class="about-description">
+            Kastamonu Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisiyim.
+            Yazılım geliştirme, web teknolojileri ve e-ticaret alanlarında kendimi sürekli geliştiriyorum.
+            Hazır e-ticaret siteleri ve özel uygulamalar geliştirebiliyorum.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="bi bi-geo-alt"></i>
+              <span>Kastamonu, Türkiye</span>
+            </div>
+            <div class="detail-item">
+              <i class="bi bi-mortarboard"></i>
+              <span>Kastamonu Üniversitesi</span>
+            </div>
+            <div class="detail-item">
+              <i class="bi bi-envelope"></i>
+              <span>abdulmuin.iletisim@gmail.com</span>
+            </div>
+            <div class="detail-item">
+              <i class="bi bi-globe"></i>
+              <span>abdulmuin.com.tr</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn-primary mt-20">
+            <i class="bi bi-chat-dots"></i> Benimle İletişime Geç
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section id="skills" class="skills section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Yetenekler</span>
+        <h2>Teknoloji <span class="gradient-text">Yığınım</span></h2>
+      </div>
+      <div class="skills-grid">
+        <!-- Programlama Dilleri -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-cs"></i>
+          </div>
+          <h4>C#</h4>
+          <span class="skill-level advanced">İleri</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="skill-icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <h4>C / C++</h4>
+          <span class="skill-level advanced">İleri</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-py"></i>
+          </div>
+          <h4>Python</h4>
+          <span class="skill-level intermediate">Orta</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-html"></i>
+          </div>
+          <h4>HTML5</h4>
+          <span class="skill-level advanced">İleri</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-css"></i>
+          </div>
+          <h4>ASP.NET CORE MVC</h4>
+          <span class="skill-level intermediate">İleri</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-js"></i>
+          </div>
+          <h4>Postgresql</h4>
+          <span class="skill-level intermediate">İleri</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-sql"></i>
+          </div>
+          <h4>Flutter</h4>
+          <span class="skill-level intermediate">İleri</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="450">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-php"></i>
+          </div>
+          <h4>PHP</h4>
+          <span class="skill-level beginner">Başlangıç</span>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-java"></i>
+          </div>
+          <h4>Java</h4>
+          <span class="skill-level beginner">Başlangıç</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section id="services" class="services section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Hizmetler</span>
+        <h2>Neler <span class="gradient-text">Yapabilirim?</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">
+            <i class="bi bi-laptop"></i>
+          </div>
+          <h3>Web Geliştirme</h3>
+          <p>Modern ve responsive web siteleri tasarlayıp geliştiriyorum. HTML, CSS, JavaScript ve ASP.NET ile
+            profesyonel çözümler sunuyorum.</p>
+          <div class="service-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>ASP.NET</span>
+          </div>
+        </div>
+        <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-badge">Popüler</div>
+          <div class="service-icon">
+            <i class="bi bi-shop"></i>
+          </div>
+          <h3>E-Ticaret Çözümleri</h3>
+          <p>Hazır e-ticaret siteleri kuruyorum. Ürün listeleme, ödeme sistemleri, sipariş yönetimi ve otomasyon
+            altyapısı ile tam kapsamlı çözümler.</p>
+          <div class="service-tags">
+            <span>E-Ticaret</span>
+            <span>Ödeme</span>
+            <span>Otomasyon</span>
+            <span>SEO</span>
+          </div>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">
+            <i class="bi bi-phone"></i>
+          </div>
+          <h3>Uygulama Geliştirme</h3>
+          <p>İsteğe bağlı masaüstü ve mobil uygulamalar geliştiriyorum. C#, Python ve modern frameworklerle özel yazılım
+            çözümleri üretiyorum.</p>
+          <div class="service-tags">
+            <span>C#</span>
+            <span>Desktop</span>
+            <span>API</span>
+            <span>Veritabanı</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION SECTION ==================== -->
+  <section id="education" class="education section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Eğitim</span>
+        <h2>Akademik <span class="gradient-text">Geçmişim</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">2024 — Devam Ediyor</div>
+            <h3>Bilgisayar Mühendisliği — Lisans</h3>
+            <h4>Kastamonu Üniversitesi</h4>
+            <p>Mühendislik ve Mimarlık Fakültesi, Bilgisayar Mühendisliği Bölümü, 2. sınıf öğrencisi.</p>
+            <div class="timeline-tags">
+              <span>Algoritmalar</span>
+              <span>Veri Yapıları</span>
+              <span>OOP</span>
+              <span>Veritabanı</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATES SECTION ==================== -->
+  <section id="certificates" class="certificates section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Sertifikalar</span>
+        <h2>Edindiğim <span class="gradient-text">Yetkinlikler</span></h2>
+      </div>
+      <div class="certificates-grid">
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="cert-icon"><i class="bi bi-code-square"></i></div>
+          <h4>C Programlama Dili</h4>
+          <p>Temel C sözdizimi, kontrol yapıları, diziler, fonksiyonlar</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="cert-icon"><i class="bi bi-controller"></i></div>
+          <h4>C# Programlama</h4>
+          <p>OOP, form uygulamaları, sınıflar, veri işleme teknikleri</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="cert-icon"><i class="bi bi-braces"></i></div>
+          <h4>İleri Seviye Python</h4>
+          <p>Veri yapıları, OOP, proje geliştirme, web scraping</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="cert-icon"><i class="bi bi-shield-lock"></i></div>
+          <h4>Siber Güvenliğe Giriş</h4>
+          <p>Temel siber güvenlik kavramları, tehdit türleri, güvenlik katmanları</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="cert-icon"><i class="bi bi-shield-check"></i></div>
+          <h4>Temel Siber Güvenlik</h4>
+          <p>Ağ güvenliği, sızma testleri, temel Kali Linux komutları</p>
+          <span class="cert-badge">Online Eğitim — 2025</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="cert-icon"><i class="bi bi-cart4"></i></div>
+          <h4>E-Ticarete Giriş</h4>
+          <p>E-ticaret altyapıları, ürün listeleme, ödeme sistemleri, lojistik</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="cert-icon"><i class="bi bi-file-earmark-spreadsheet"></i></div>
+          <h4>Excel Uzmanlığı</h4>
+          <p>Excel fonksiyonları, tablo düzenleme, XML ile web scraping</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="450">
+          <div class="cert-icon"><i class="bi bi-megaphone"></i></div>
+          <h4>Satış ve Pazarlama</h4>
+          <p>Satış teknikleri, CRM, dijital pazarlama stratejileri</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="cert-icon"><i class="bi bi-rocket-takeoff"></i></div>
+          <h4>Girişimcilik Temelleri</h4>
+          <p>İş modeli oluşturma, finansal planlama, girişimci zihniyeti</p>
+          <span class="cert-badge">Başarı Sertifikası</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">İletişim</span>
+        <h2>Benimle <span class="gradient-text">İletişime Geçin</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+          <div class="contact-card">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <h4>Konum</h4>
+                <p>Kastamonu / Merkez, Türkiye</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <h4>E-posta</h4>
+                <p>abdulmuin.iletisim@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-section" data-aos="fade-left" data-aos-delay="200">
+          <h3>Sosyal Medya</h3>
+          <p>Beni aşağıdaki platformlarda takip edebilirsiniz</p>
+          <div class="social-grid">
+            <a href="https://github.com/abdulmuin-said" target="_blank" class="social-card github">
+              <i class="bi bi-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/abdulmuin-said-143025364/" target="_blank"
+              class="social-card linkedin">
+              <i class="bi bi-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://x.com/abdulmuin_said" target="_blank" class="social-card twitter">
+              <i class="bi bi-twitter-x"></i>
+              <span>Twitter/X</span>
+            </a>
+            <a href="https://instagram.com/abdulmuin_alsaeed" target="_blank" class="social-card instagram">
+              <i class="bi bi-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61575676393199" target="_blank"
+              class="social-card facebook">
+              <i class="bi bi-facebook"></i>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="footer-logo">Abdulmuin <span>Said</span></a>
+        <p>Yazılım ile dijital dünyayı şekillendiriyorum.</p>
+        <div class="footer-social">
+          <a href="https://github.com/abdulmuin-said" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/abdulmuin-said-143025364/" target="_blank"><i
+              class="bi bi-linkedin"></i></a>
+          <a href="https://x.com/abdulmuin_said" target="_blank"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://instagram.com/abdulmuin_alsaeed" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Abdulmuin Said. Tüm hakları saklıdır.</p>
       </div>
     </div>
   </footer>
-  
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  
-  <!-- Preloader -->
-  <div id="preloader"></div>
-  
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
 
+  <!-- Scroll to Top -->
+  <a href="#hero" id="scrollTop" class="scroll-top" aria-label="Yukarı çık">
+    <i class="bi bi-chevron-up"></i>
+  </a>
 
-            <script>
-            // 5 saniye sonra hakkımda bölümüne otomatik kaydırma
-            document.addEventListener('DOMContentLoaded', function() {
-                setTimeout(function() {
-                    const aboutSection = document.getElementById('about');
-                    if (aboutSection) {
-                        aboutSection.scrollIntoView({ behavior: 'smooth' });
-                    }
-                }, 6000); // 5000 milisaniye
-            });
-            </script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
-            
-  
-  </body>
-  </html>
+  <!-- Main JS -->
+  <script>
+    // ==================== AOS INIT ====================
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: true,
+      offset: 80
+    });
+
+    // ==================== NAVBAR ====================
+    const navbar = document.getElementById('navbar');
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    // Sticky navbar
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile toggle
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      navToggle.classList.toggle('active');
+    });
+
+    // Close mobile nav on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        navToggle.classList.remove('active');
+      });
+    });
+
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY + 100;
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute('id');
+        const link = document.querySelector(`.nav-links a[href="#${id}"]`);
+        if (link) {
+          link.classList.toggle('active', scrollY >= top && scrollY < top + height);
+        }
+      });
+    });
+
+    // ==================== TYPING EFFECT ====================
+    const phrases = [
+      'Full-Stack Geliştirici',
+      'E-Ticaret Uzmanı',
+      'Bilgisayar Mühendisi',
+      'Uygulama Geliştiricisi',
+      'Web Tasarımcısı'
+    ];
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typedOutput = document.getElementById('typed-output');
+
+    function typeEffect() {
+      const currentPhrase = phrases[phraseIndex];
+      if (isDeleting) {
+        typedOutput.textContent = currentPhrase.substring(0, charIndex - 1);
+        charIndex--;
+      } else {
+        typedOutput.textContent = currentPhrase.substring(0, charIndex + 1);
+        charIndex++;
+      }
+
+      let delay = isDeleting ? 40 : 80;
+
+      if (!isDeleting && charIndex === currentPhrase.length) {
+        delay = 2000;
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        delay = 500;
+      }
+
+      setTimeout(typeEffect, delay);
+    }
+    typeEffect();
+
+    // ==================== PARTICLES ====================
+    function createParticles() {
+      const container = document.getElementById('particles');
+      const count = window.innerWidth < 768 ? 30 : 60;
+      for (let i = 0; i < count; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.top = Math.random() * 100 + '%';
+        particle.style.width = particle.style.height = Math.random() * 4 + 1 + 'px';
+        particle.style.animationDelay = Math.random() * 6 + 's';
+        particle.style.animationDuration = (Math.random() * 8 + 6) + 's';
+        container.appendChild(particle);
+      }
+    }
+    createParticles();
+
+    // ==================== SCROLL TO TOP ====================
+    const scrollTopBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+      scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+    });
+  </script>
+
+</body>
+
+</html>
